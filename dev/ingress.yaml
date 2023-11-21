@@ -12,7 +12,7 @@ spec:
   - host: tcc-01.th1.proen.cloud
     http:
       paths:
-      - path: "/diabetes/predict(/|$)(.*)"
+      - path: "/predict(/|$)(.*)"
         pathType: Prefix
         backend:
           service:
