@@ -16,4 +16,4 @@ spec:
         - name: my-container
           image: nutbodyslam053/bd528:18f7cef355d73e170bec567545033dfac5f652b8
           ports:
-          - containerPort: 8080
+          - containerPort: 5000
