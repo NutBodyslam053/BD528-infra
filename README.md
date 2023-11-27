@@ -20,3 +20,8 @@ Web App
 kubectl port-forward -n myapp svc/my-service 8081:5000
 https://tcc-01.th1.proen.cloud/predict
 ```
+
+ArgoCD TCC
+```bash
+https://tcc-argocd.jumpbox.academy/
+```
