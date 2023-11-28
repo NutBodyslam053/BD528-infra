@@ -9,7 +9,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: tcc-01.th1.proen.cloud
+  # - host: tcc-01.th1.proen.cloud
+  - host: 192.168.49.2
     http:
       paths:
       - path: /predict(/|$)(.*)
