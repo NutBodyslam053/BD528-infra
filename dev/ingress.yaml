@@ -9,7 +9,6 @@ spec:
   ingressClassName: nginx
   rules:
   - host: diabetes
-    # host: tcc-01.th1.proen.cloud
     http:
       paths:
       - path: /predict(/|$)(.*)

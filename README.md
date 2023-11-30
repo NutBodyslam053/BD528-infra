@@ -27,5 +27,6 @@ kubectl -n ingress-nginx --address 0.0.0.0 port-forward svc/ingress-nginx-contro
 Web App
 ```bash
 kubectl port-forward -n myapp svc/my-service 8081:5000
+minikube service my-service -n myapp
 # https://tcc-01.th1.proen.cloud/predict
 ```
