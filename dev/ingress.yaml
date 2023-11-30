@@ -8,10 +8,10 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - host: localhost
     # host: tcc-01.th1.proen.cloud
-    host: localhost
-    paths:
+    http:
+      paths:
       - path: /predict(/|$)(.*)
         pathType: Prefix
         backend:
