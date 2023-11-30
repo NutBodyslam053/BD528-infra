@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: diabetes.home
+  - host: diabetes
     # host: tcc-01.th1.proen.cloud
     http:
       paths:
