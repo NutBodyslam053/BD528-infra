@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: nutbodyslam053/bd528:v1
+          image: nutbodyslam053/bd528:3572078e5457c36e1f80d0663afcfb3ae8475990
           ports:
             - containerPort: 5000
